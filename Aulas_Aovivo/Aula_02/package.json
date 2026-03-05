@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "aula_02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "for2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
