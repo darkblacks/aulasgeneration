@@ -1,0 +1,17 @@
+{
+  "name": "atividade-js14-task05-conta-bancaria",
+  "version": "1.0.0",
+  "description": "Projeto Conta Bancária - JS14 Task 05",
+  "main": "dist/Menu.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Menu.js",
+    "dev": "ts-node src/Menu.ts",
+    "teste": "ts-node src/TesteController.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

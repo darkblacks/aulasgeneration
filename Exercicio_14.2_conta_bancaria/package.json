@@ -1,0 +1,10 @@
+{
+  "name": "projeto-conta-bancaria-generation",
+  "version": "1.0.0",
+  "description": "Projeto Conta Bancária em TypeScript com ContaController, CRUD e Menu interativo.",
+  "main": "dist/Menu.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Menu.js"
+  }
+}

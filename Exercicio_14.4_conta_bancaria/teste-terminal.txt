@@ -1,0 +1,124 @@
+
+> atividade-js14-task05-conta-bancaria@1.0.0 teste
+> ts-node src/TesteController.ts
+
+
+A Conta número 1 foi cadastrada com sucesso!
+
+A Conta número 2 foi cadastrada com sucesso!
+
+=== LISTAGEM INICIAL ===
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 1
+Agência: 123
+Tipo da Conta: Conta Corrente
+Titular: Ana
+Saldo: R$ 1000.00
+Limite: R$ 500.00
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 2
+Agência: 456
+Tipo da Conta: Conta Poupança
+Titular: Bia
+Saldo: R$ 200.00
+Dia do Aniversário: 10
+
+=== BUSCA CONTA 2 ===
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 2
+Agência: 456
+Tipo da Conta: Conta Poupança
+Titular: Bia
+Saldo: R$ 200.00
+Dia do Aniversário: 10
+
+=== SAQUE CONTA 1 ===
+
+Saque de R$ 100.00 realizado com sucesso na conta 1!
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 1
+Agência: 123
+Tipo da Conta: Conta Corrente
+Titular: Ana
+Saldo: R$ 900.00
+Limite: R$ 500.00
+
+=== DEPÓSITO CONTA 2 ===
+
+Depósito de R$ 50.00 realizado com sucesso na conta 2!
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 2
+Agência: 456
+Tipo da Conta: Conta Poupança
+Titular: Bia
+Saldo: R$ 250.00
+Dia do Aniversário: 10
+
+=== TRANSFERÊNCIA 1 -> 2 ===
+
+Transferência de R$ 200.00 da conta 1 para a conta 2 realizada com sucesso!
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 1
+Agência: 123
+Tipo da Conta: Conta Corrente
+Titular: Ana
+Saldo: R$ 700.00
+Limite: R$ 500.00
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 2
+Agência: 456
+Tipo da Conta: Conta Poupança
+Titular: Bia
+Saldo: R$ 450.00
+Dia do Aniversário: 10
+
+=== ATUALIZAÇÃO CONTA 1 ===
+
+A Conta número 1 foi atualizada com sucesso!
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 1
+Agência: 999
+Tipo da Conta: Conta Corrente
+Titular: Ana Silva
+Saldo: R$ 700.00
+Limite: R$ 800.00
+
+=== EXCLUSÃO CONTA 1 ===
+
+A Conta número 1 foi apagada com sucesso!
+
+=== LISTAGEM FINAL ===
+
+*************************************
+Dados da Conta
+*************************************
+Número da Conta: 2
+Agência: 456
+Tipo da Conta: Conta Poupança
+Titular: Bia
+Saldo: R$ 450.00
+Dia do Aniversário: 10
