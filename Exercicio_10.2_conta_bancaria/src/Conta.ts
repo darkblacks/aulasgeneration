@@ -19,7 +19,7 @@ export class Conta {
   }
 
   public validarSenha(senha: number): boolean {
-    return this.senha === senha;
+    return this.senha === senha; 
   }
 
   public atualizarNome(novoNome: string): void {
